@@ -315,11 +315,10 @@ make norminette             runs norminette for all files in the project that ne
 ## References
 
 * [vinibiavatti1 - RayCastingTutorial](https://github.com/vinibiavatti1/RayCastingTutorial/wiki)
-* Lode's Computer Graphics Tutorial:
-    * [Part 1](https://lodev.org/cgtutor/raycasting.html)
-    * [Part 2](https://lodev.org/cgtutor/raycasting2.html)
-    * [Part 3](https://lodev.org/cgtutor/raycasting3.html)
-    * [Part 4](https://lodev.org/cgtutor/raycasting4.html)
+* [Lode's Tutorial Part 1](https://lodev.org/cgtutor/raycasting.html)
+* [Lode's Tutorial Part 2](https://lodev.org/cgtutor/raycasting2.html)
+* [Lode's Tutorial Part 3](https://lodev.org/cgtutor/raycasting3.html)
+* [Lode's Tutorial Part 4](https://lodev.org/cgtutor/raycasting4.html)
 * [42docs - miniLibX](https://harm-smits.github.io/42docs/libs/minilibx)
 
 ## Summary
