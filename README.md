@@ -26,7 +26,7 @@
 
 ## Introduction
 
-The aim of the ``cub3d`` proyect is to create a 3D game using the raycasting technique which is a rendering method implemented in the world-famous ``Wolfenstein 3D`` game. This was a group proyect and I had the honor to repeat with @mbueno-g :)
+The aim of the ``cub3d`` proyect is to create a 3D game using the raycasting technique which is a rendering method implemented in the world-famous ``Wolfenstein 3D`` game. This was a group proyect and I had the honor to do it with [@mbueno-g](https://github.com/mbueno-g) again :)
 
 ## Map Parsing
 
