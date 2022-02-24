@@ -9,10 +9,10 @@
 ### Table of Contents
 
 * [Introduction](#introduction)
+* [Map Parsing](#map-parsing)
 * [Raycasting](#raycasting)
      * [Walls](#walls)
      * [Textures](#textures)
-* [Map Parsing](#map-parsing)
 * [Controls](#controls)
 * [Bonus](#bonus)
 * [Extras](#extras)
