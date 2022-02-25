@@ -47,7 +47,7 @@ Here's an example of a valid map (not rectangular but still valid):
 NO textures/wall_1.xpm
 SO textures/wall_2.xpm
 WE textures/wall_3.xpm
-EA textures/torch/wall.xpm
+EA textures/wall.xpm
 
 F 184,113,39
 C 51,198,227
