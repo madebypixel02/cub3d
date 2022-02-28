@@ -6,7 +6,7 @@
 /*   By: aperez-b <aperez-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/31 13:10:05 by aperez-b          #+#    #+#             */
-/*   Updated: 2022/02/20 16:57:57 by aperez-b         ###   ########.fr       */
+/*   Updated: 2022/02/28 19:24:24 by aperez-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@ int	cub_perror(t_cub_err err, t_game *g, char *param, int c)
 	cub_end(g);
 	write(2, "cub3d: ", 7 * (err != end));
 	write(2, "invalid number of arguments\n", 28 * (err == inv_argc));
+	write(2, "cub3D not run in root of the project\n", 37 * (err == inv_pwd));
 	write(2, "file must be of .cub type\n", 26 * (err == inv_ext));
 	write(2, "error opening file: ", 20 * (err == inv_file));
 	write(2, "file is empty\n", 14 * (err == empty_file));

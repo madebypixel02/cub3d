@@ -6,7 +6,7 @@
 /*   By: aperez-b <aperez-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/25 15:24:16 by aperez-b          #+#    #+#             */
-/*   Updated: 2022/02/20 21:07:17 by aperez-b         ###   ########.fr       */
+/*   Updated: 2022/02/28 19:31:16 by aperez-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,6 +44,8 @@ void	init_sprites(t_game *g)
 	g->tex.w_bak = NULL;
 	g->tex.b = mlx_load_img(g->mlx_ptr, "textures/black.xpm");
 	g->scope = mlx_load_img(g->mlx_ptr, "textures/scope.xpm");
+	if (!g->tex.b || !g->tex.b->i || !g->scope || !g->scope->i)
+		cub_perror(inv_pwd, g, NULL, 1);
 }
 
 static t_game	cub_init(void)
@@ -51,6 +53,7 @@ static t_game	cub_init(void)
 	t_game	g;
 
 	g.width = 0;
+	g.fd = -1;
 	g.height = 0;
 	g.nframes = 0;
 	g.map = NULL;

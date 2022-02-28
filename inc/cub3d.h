@@ -6,7 +6,7 @@
 /*   By: aperez-b <aperez-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/25 15:25:42 by aperez-b          #+#    #+#             */
-/*   Updated: 2022/02/20 21:06:18 by aperez-b         ###   ########.fr       */
+/*   Updated: 2022/02/28 19:17:11 by aperez-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,8 @@ typedef enum e_cub_err
 	inv_map,
 	inv_charac,
 	inv_player,
-	inv_tex
+	inv_tex,
+	inv_pwd
 }				t_cub_err;
 
 /* Struct to handle rgb colors with transparency */

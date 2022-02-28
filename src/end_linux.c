@@ -6,7 +6,7 @@
 /*   By: aperez-b <aperez-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/01 11:06:18 by aperez-b          #+#    #+#             */
-/*   Updated: 2022/02/20 18:07:54 by aperez-b         ###   ########.fr       */
+/*   Updated: 2022/02/28 19:31:35 by aperez-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,8 @@ void	cub_end(t_game *g)
 	if (!g)
 		return ;
 	ft_free_matrix(&g->map);
-	close(g->fd);
+	if (g->fd > 0)
+		close(g->fd);
 	destroy_images(g);
 	mlx_destroy_display(g->mlx_ptr);
 	free(g->mlx_ptr);
