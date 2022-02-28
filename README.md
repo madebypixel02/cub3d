@@ -323,3 +323,9 @@ make norminette             runs norminette for all files in the project that ne
 After learning the basics of the ``miniLibX`` graphics library in the [so_long](https://github.com/madebypixel02/so_long) project, this project was quicker to do than expected. However, raycasting was a brand new concept with tons of mathematical concepts behind it, so it was a bit tricky to grasp at first. Having said that, it was still a lot of fun :)
 
 February 24th, 2022
+
+<p align="center">
+  <a href="https://github.com/madebypixel02/minishell">&#11013;</a>
+  <a href="https://github.com/madebypixel02/42-Madrid-Cursus">&#127968;</a>
+  <a href="https://github.com/madebypixel02/CPP-Modules">&#10145;</a>
+</p>
