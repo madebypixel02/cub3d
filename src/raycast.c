@@ -6,7 +6,7 @@
 /*   By: aperez-b <aperez-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/08 13:35:23 by aperez-b          #+#    #+#             */
-/*   Updated: 2022/02/20 21:03:11 by aperez-b         ###   ########.fr       */
+/*   Updated: 2022/03/02 22:04:11 by aperez-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,19 +30,17 @@ void	init_ray(t_game *g)
 float	distance_to_wall(t_game *g, float ray_angle)
 {
 	float	d;
-	float	ray_cos;
-	float	ray_sin;
 
-	ray_cos = cos(degree_to_radians(ray_angle)) / g->ray.precision;
-	ray_sin = sin(degree_to_radians(ray_angle)) / g->ray.precision;
+	g->ray.cos = cos(degree_to_radians(ray_angle)) / g->ray.precision;
+	g->ray.sin = sin(degree_to_radians(ray_angle)) / g->ray.precision;
 	g->x = g->pl.x + 0.5;
 	g->y = g->pl.y + 0.5;
 	while (!ft_strchr("1c", g->map[(int)g->y][(int)g->x]) && \
 		sqrt(powf(g->x - g->pl.x - 0.5, 2.) + \
 		powf(g->y - g->pl.y - 0.5, 2.)) < g->ray.lim)
 	{
-		g->x += ray_cos;
-		g->y += ray_sin;
+		g->x += g->ray.cos;
+		g->y += g->ray.sin;
 		if (ft_strchr("1c", g->map[(int)g->y][(int)g->x]))
 			my_mlx_pixel_put(&g->minimap, g->x * SIZE, g->y * SIZE, 0x00FF0000);
 		else if (ray_angle - 1 < g->ray.angle && ray_angle + 1 > g->ray.angle)

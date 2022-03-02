@@ -6,7 +6,7 @@
 /*   By: aperez-b <aperez-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/17 09:25:29 by aperez-b          #+#    #+#             */
-/*   Updated: 2022/02/20 17:09:29 by aperez-b         ###   ########.fr       */
+/*   Updated: 2022/03/02 22:06:03 by aperez-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,23 +14,25 @@
 
 t_img	*get_texture(t_game *g)
 {
-	float	small;
 	t_img	*i;
+	float	ray_cos;
+	float	ray_sin;
 
-	small = 0.02;
+	ray_cos = g->ray.cos;
+	if (ray_cos < 0)
+		ray_cos = -ray_cos;
+	ray_sin = g->ray.sin;
+	if (ray_sin < 0)
+		ray_sin = -ray_sin;
 	i = g->tex.b;
-	if (g->y - (int)g->y < small && \
-			g->x > (int)g->x + small && g->x < (int)g->x + 1 - small)
+	if (g->map[(int)(g->y - ray_sin)][(int)g->x] != '1')
 		i = g->tex.n->content;
-	else if ((int)g->y + 1 - g->y < small && \
-		g->x > (int)g->x + small && g->x < (int)g->x + 1 - small)
+	else if (g->map[(int)(g->y + ray_sin)][(int)g->x] != '1')
 		i = g->tex.s->content;
-	else if (g->x - (int)g->x < small && \
-		g->y > (int)g->y + small && g->y < (int)g->y + 1 - small)
-		i = g->tex.w->content;
-	else if ((int)g->x + 1 - g->x < small && \
-		g->y > (int)g->y + small && g->y < (int)g->y + 1 - small)
+	else if (g->map[(int)g->y][(int)(g->x + ray_cos)] != '1')
 		i = g->tex.e->content;
+	else if (g->map[(int)g->y][(int)(g->x - ray_cos)] != '1')
+		i = g->tex.w->content;
 	return (i);
 }
 
