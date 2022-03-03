@@ -7,9 +7,9 @@ SO textures/torch/torch1_wall_2.xpm
 WE textures/torch/torch3_wall_3.xpm
 WE textures/torch/torch1_wall_3.xpm
 WE textures/torch/torch2_wall_3.xpm
-EA textures/torch/torch1_wall_3.xpm
-EA textures/torch/torch2_wall_3.xpm
-EA textures/torch/torch3_wall_3.xpm
+EA textures/torch/torch1_wall_4.xpm
+EA textures/torch/torch2_wall_4.xpm
+EA textures/torch/torch3_wall_4.xpm
 
 F 150,75,0
 C 41,117,119
