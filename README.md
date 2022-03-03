@@ -3,7 +3,7 @@
 *My first RayCaster with miniLibX 💡*
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/40824677/155116913-80e549a9-1080-4eaf-bf44-0c0940998119.gif">
+    <img src="https://user-images.githubusercontent.com/40824677/156563198-ac320c5a-be9e-43cc-9bcf-cd49670661e4.gif">
 </p>
 
 ### Table of Contents
@@ -111,7 +111,7 @@ To calculate the **distance between the player and the nearest wall**, we can us
     <tr align="center">
         <td> Precision </td>
         <td> Size of 'steps' taken every iteration </td>
-        <td> 70 </td>
+        <td> 50 </td>
     </tr>
     <tr align="center">
         <td> Limit </td>
@@ -220,29 +220,35 @@ We implemented a few things that we were not asked to implement, but we thought 
 
 Here are a few samples of how our maps look
 
-- ``1.cub``
-
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/40824677/155116616-824e5a4e-7dc2-4e6b-8d00-5d22e57d7c2c.gif">
-</p>
-
 - ``2.cub``
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/40824677/155116751-58a1f0d4-8500-480d-bf47-c93073933fbb.gif">
+    <img src="https://user-images.githubusercontent.com/40824677/156563400-46e259e7-b197-446b-8578-c80ff97fc709.gif">
+</p>
+
+- ``space.cub``
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/40824677/156563514-1697f731-3a15-4e56-a047-db3a9aa1c121.gif">
+</p>
+
+- ``frame.cub``
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/40824677/156563421-491b363c-21f2-4129-ad90-83e57ec2c4f6.gif">
 </p>
 
 - ``pac.cub``
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/40824677/155117235-bd8e392a-d856-4201-9f56-13a72f7ef3ca.gif">
+    <img src="https://user-images.githubusercontent.com/40824677/156563445-617cb27a-8df7-451e-9ce4-e22409bffdab.gif">
 </p>
 
 
 - ``pac2.cub``
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/40824677/155117526-38191be8-94d7-43e5-bca0-aca7a0efeb00.gif">
+    <img src="https://user-images.githubusercontent.com/40824677/156563462-300565a2-9d6a-4a82-9c18-d16d3fb35ffb.gif">
 </p>
 
 To check some of our favorite layouts, see [MAPS.md](https://github.com/mbueno-g/cub3d/blob/main/maps/MAPS.md)
