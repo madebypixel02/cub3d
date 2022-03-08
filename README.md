@@ -1,4 +1,4 @@
-# cub3d
+# cub3d | 42 Madrid
 
 *My first RayCaster with miniLibX 💡*
 
