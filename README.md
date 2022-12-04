@@ -2,9 +2,9 @@
 
 *My first RayCaster with miniLibX 💡*
 
-<p align="center">
+<div align="center">
     <img src="https://user-images.githubusercontent.com/40824677/156563198-ac320c5a-be9e-43cc-9bcf-cd49670661e4.gif">
-</p>
+</div>
 
 ### Table of Contents
 
@@ -68,10 +68,10 @@ C 51,198,227
 Raycasting is a rendering technique to create a 3D perspective in a 2D map. 
 The logic behind RayCasting is to throw rays in the direction of the player view. Basically, we need to check the distance between the player and the nearest wall (i.e. the point where the ray hits a wall) to caculate the height of the vertical lines we draw. Here is a simple depiction of it:
 
-<p align="center">
+<div align="center">
      <img width="200" alt="Raycast Example 1" src="https://user-images.githubusercontent.com/71781441/154158563-5b4f7641-4f3d-4cca-97f1-4cc79aac16dd.png">
     <img width="233" alt="Raycast Example 2" src="https://user-images.githubusercontent.com/71781441/154159164-667da898-a8d5-4991-a8d0-a6008f111054.png">
-</p>
+</div>
 
 ### Walls
     
@@ -88,9 +88,9 @@ To calculate the **distance between the player and the nearest wall**, we can us
     <tr align="center">
         <td> FOV </td>
         <td> The field of view of the player
-            <p align="center">
+            <div align="center">
     <img width="150" align="center" alt="FOV Image" src="https://user-images.githubusercontent.com/71781441/154864710-baee6726-6f2a-4f37-8125-97a5cf52c4f7.png">
-</p>
+</div>
         <td> 60º </td>
     </tr>
     <tr align="center">
@@ -222,34 +222,34 @@ Here are a few samples of how our maps look
 
 - ``2.cub``
 
-<p align="center">
+<div align="center">
     <img src="https://user-images.githubusercontent.com/40824677/156563400-46e259e7-b197-446b-8578-c80ff97fc709.gif">
-</p>
+</div>
 
 - ``space.cub``
 
-<p align="center">
+<div align="center">
     <img src="https://user-images.githubusercontent.com/40824677/156563514-1697f731-3a15-4e56-a047-db3a9aa1c121.gif">
-</p>
+</div>
 
 - ``frame.cub``
 
-<p align="center">
+<div align="center">
     <img src="https://user-images.githubusercontent.com/40824677/156563421-491b363c-21f2-4129-ad90-83e57ec2c4f6.gif">
-</p>
+</div>
 
 - ``pac.cub``
 
-<p align="center">
+<div align="center">
     <img src="https://user-images.githubusercontent.com/40824677/156563445-617cb27a-8df7-451e-9ce4-e22409bffdab.gif">
-</p>
+</div>
 
 
 - ``pac2.cub``
 
-<p align="center">
+<div align="center">
     <img src="https://user-images.githubusercontent.com/40824677/156563462-300565a2-9d6a-4a82-9c18-d16d3fb35ffb.gif">
-</p>
+</div>
 
 To check some of our favorite layouts, see [MAPS.md](https://github.com/madebypixel02/cub3d/blob/main/maps/MAPS.md)
 
@@ -329,9 +329,3 @@ make norminette             runs norminette for all files in the project that ne
 After learning the basics of the ``miniLibX`` graphics library in the [so_long](https://github.com/madebypixel02/so_long) project, this project was quicker to do than expected. However, raycasting was a brand new concept with tons of mathematical concepts behind it, so it was a bit tricky to grasp at first. Having said that, it was still a lot of fun :)
 
 February 24th, 2022
-
-<p align="center">
-  <a href="https://github.com/madebypixel02/minishell">&#11013;</a>
-  <a href="https://github.com/madebypixel02/42-Madrid-Cursus">&#127968;</a>
-  <a href="https://github.com/madebypixel02/CPP-Modules">&#10145;</a>
-</p>
