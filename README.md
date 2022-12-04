@@ -251,7 +251,7 @@ Here are a few samples of how our maps look
     <img src="https://user-images.githubusercontent.com/40824677/156563462-300565a2-9d6a-4a82-9c18-d16d3fb35ffb.gif">
 </div>
 
-To check some of our favorite layouts, see [MAPS.md](https://github.com/madebypixel02/cub3d/blob/main/maps/MAPS.md)
+To check some of our favorite layouts, see [MAPS.md](./maps/MAPS.md)
 
 
 ## Installation
