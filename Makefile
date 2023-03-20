@@ -92,7 +92,7 @@ bonus: all
 
 compile_libft:
 	@if [ ! -d "libft" ]; then \
-		git clone https://github.com/madebypixel02/libft.git; \
+		git clone https://gitlab.com/madebypixel02/libft.git; \
 	fi
 	@make all -C libft/
 
