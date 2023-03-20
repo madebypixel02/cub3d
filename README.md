@@ -258,7 +258,7 @@ To check some of our favorite layouts, see [MAPS.md](./maps/MAPS.md)
 
 ### Cloning the repositories
 ```shell
-git clone https://github.com/madebypixel02/cub3d.git
+git clone https://gitlab.com/madebypixel02/cub3d.git
 cd cub3d
 make
 ```
@@ -326,6 +326,6 @@ make norminette             runs norminette for all files in the project that ne
 
 ## Summary
 
-After learning the basics of the ``miniLibX`` graphics library in the [so_long](https://github.com/madebypixel02/so_long) project, this project was quicker to do than expected. However, raycasting was a brand new concept with tons of mathematical concepts behind it, so it was a bit tricky to grasp at first. Having said that, it was still a lot of fun :)
+After learning the basics of the ``miniLibX`` graphics library in the [so_long](https://gitlab.com/madebypixel02/so_long) project, this project was quicker to do than expected. However, raycasting was a brand new concept with tons of mathematical concepts behind it, so it was a bit tricky to grasp at first. Having said that, it was still a lot of fun :)
 
 February 24th, 2022
